@@ -36,11 +36,16 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
+* [Usage](#usage)
+* [Development Notes](#development-notes)
+  * [Getting Started](#getting-started)
+  * [Required Knowledge](#required-knowledge)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Development setup](#development-setup)
+  * [Deployment](#deployment)
+  * [Monitoring](#monitoring)
+  * [Testing](#testing)
+  * [Dependency of :](#dependency-of-)
 * [Release History & Changelog](#release-history--changelog)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -57,13 +62,28 @@ This section should list any major frameworks that you built your project using.
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
 
+<!-- USAGE EXAMPLES -->
+## Usage
 
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<!-- CONTRIBUTING -->
+## Development Notes
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+
+### Required Knowledge
+
+This is list of all the skills needed to handle this project, inclueds depoying it to production and maintain it.
+* Scala
+* Spark
+* Airflow
 
 ### Prerequisites
 
@@ -71,8 +91,9 @@ This is an example of how to list things you need to use the software and how to
 * java
 * maven
 
-
 ### Installation
+
+Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -87,23 +108,29 @@ npm install
 ```JS
 const API_KEY = 'ENTER YOUR API';
 ```
+### Deployment
 
-<!-- USAGE EXAMPLES -->
-## Usage
+Brief the next subjects : 
+1. Environments and where is the production of this project.
+2. How to deploy this project to production?
+3. Risks of re-deploying this
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Monitoring
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+If this projects has monitoring somewhere (Grafana or something else), note it here and reference it.
 
-<!-- CONTRIBUTING -->
-## Development setup
+### Testing
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Make sure you cover these questions : 
+1. Are there any tests? 
+2. What kind of testing library?
+3. How to run the tests
+4. Known broken tests
 
-```sh
-make install
-npm test
-```
+### Dependency of :
+
+If this project is a known dependency of any other project - write it here, 
+so if any1 is going to do some major changes - he will be noticed.
 
 ## Release History & Changelog
 
