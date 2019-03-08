@@ -41,7 +41,7 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Development setup](#development-setup)
-* [Release History & Changelog](#release-history-&-changelog)
+* [Release History & Changelog](#release-history--changelog)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
